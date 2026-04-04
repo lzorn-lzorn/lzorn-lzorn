@@ -1,18 +1,25 @@
+
 name: Update README cards
 
 on:
   schedule:
-    # 定时更新，例如每天UTC时间0点（北京时间上午8点）运行一次
     - cron: "0 0 * * *"
-  workflow_dispatch: # 允许手动触发工作流，方便测试
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 👈 关键：授予写入权限
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 生成主要的统计卡片
+      # 可选：显式设置远程 URL 使用 token（增加稳定性）
+      - name: Fix remote URL
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -21,7 +28,6 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 生成编程语言分布卡片
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -30,7 +36,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 将生成的卡片文件提交回仓库
       - name: Commit cards
         run: |
           git config user.name "github-actions"
