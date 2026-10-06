@@ -22,5 +22,8 @@ Welcome to visit My [blog](https://lzorn-lzorn.github.io/) has a bunch of relate
 ---
 
 <a href="https://github.com/lzorn-lzorn">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lzorn-lzorn&layout=compact&theme=dark&langs_count=8" alt="Top Langs" />
+  <img align="center" width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lzorn-lzorn&layout=compact&theme=dark&langs_count=8" alt="Top Langs" />
+</a>
+<a href="https://github.com/lzorn-lzorn">
+  <img align="center" width="400" src="https://streak-stats.demolab.com?user=lzorn-lzorn&theme=dark&hide_border=true" alt="GitHub Streak" />
 </a>
