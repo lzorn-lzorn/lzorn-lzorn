@@ -21,6 +21,4 @@ Welcome to visit My [blog](https://lzorn-lzorn.github.io/) has a bunch of relate
 
 ---
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lzorn-lzorn&show_icons=true&theme=dark&locale=cn)](https://github.com/lzorn-lzorn)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lzorn-lzorn&layout=compact&theme=dark&langs_count=8)](https://github.com/lzorn-lzorn)
