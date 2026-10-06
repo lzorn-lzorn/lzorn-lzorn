@@ -1,6 +1,5 @@
 
 # Hi, I'm Lzorn
----
 
 I'm,
 
@@ -22,6 +21,6 @@ Welcome to visit My [blog](https://lzorn-lzorn.github.io/) has a bunch of relate
 
 ---
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=dark&locale=cn)](https://github.com/你的用户名)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=dark&locale=cn)](https://github.com/lzorn-lzorn)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=dark&langs_count=8)](https://github.com/你的用户名)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=dark&langs_count=8)](https://github.com/lzorn-lzorn)
